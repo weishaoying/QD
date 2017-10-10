@@ -1,0 +1,15 @@
+D:\02_Fx\QD\QD.Logging\bin\Debug\QD.Logging.dll
+D:\02_Fx\QD\QD.Logging\bin\Debug\QD.Logging.pdb
+D:\02_Fx\QD\QD.Logging\obj\Debug\ResolveAssemblyReference.cache
+D:\02_Fx\QD\QD.Logging\obj\Debug\QD.Logging.dll
+D:\02_Fx\QD\QD.Logging\obj\Debug\QD.Logging.pdb
+E:\Innovation\QD\QD.Logging\bin\Debug\QD.Logging.dll
+E:\Innovation\QD\QD.Logging\bin\Debug\QD.Logging.pdb
+E:\Innovation\QD\QD.Logging\obj\Debug\ResolveAssemblyReference.cache
+E:\Innovation\QD\QD.Logging\obj\Debug\QD.Logging.dll
+E:\Innovation\QD\QD.Logging\obj\Debug\QD.Logging.pdb
+D:\Innovation\QD\QD.Logging\bin\Debug\QD.Logging.dll
+D:\Innovation\QD\QD.Logging\bin\Debug\QD.Logging.pdb
+D:\Innovation\QD\QD.Logging\obj\Debug\QD.Logging.csprojResolveAssemblyReference.cache
+D:\Innovation\QD\QD.Logging\obj\Debug\QD.Logging.dll
+D:\Innovation\QD\QD.Logging\obj\Debug\QD.Logging.pdb

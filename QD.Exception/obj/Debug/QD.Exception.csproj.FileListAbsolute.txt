@@ -1,0 +1,15 @@
+D:\02_Fx\QD\QD.Exception\bin\Debug\QD.Exception.dll
+D:\02_Fx\QD\QD.Exception\bin\Debug\QD.Exception.pdb
+D:\02_Fx\QD\QD.Exception\obj\Debug\ResolveAssemblyReference.cache
+D:\02_Fx\QD\QD.Exception\obj\Debug\QD.Exception.dll
+D:\02_Fx\QD\QD.Exception\obj\Debug\QD.Exception.pdb
+E:\Innovation\QD\QD.Exception\bin\Debug\QD.Exception.dll
+E:\Innovation\QD\QD.Exception\bin\Debug\QD.Exception.pdb
+E:\Innovation\QD\QD.Exception\obj\Debug\ResolveAssemblyReference.cache
+E:\Innovation\QD\QD.Exception\obj\Debug\QD.Exception.dll
+E:\Innovation\QD\QD.Exception\obj\Debug\QD.Exception.pdb
+D:\Innovation\QD\QD.Exception\bin\Debug\QD.Exception.dll
+D:\Innovation\QD\QD.Exception\bin\Debug\QD.Exception.pdb
+D:\Innovation\QD\QD.Exception\obj\Debug\QD.Exception.csprojResolveAssemblyReference.cache
+D:\Innovation\QD\QD.Exception\obj\Debug\QD.Exception.dll
+D:\Innovation\QD\QD.Exception\obj\Debug\QD.Exception.pdb

@@ -1,0 +1,14 @@
+D:\02_Fx\QD\QD.Found\bin\Debug\QD.Found.dll
+D:\02_Fx\QD\QD.Found\bin\Debug\QD.Found.pdb
+D:\02_Fx\QD\QD.Found\obj\Debug\ResolveAssemblyReference.cache
+D:\02_Fx\QD\QD.Found\obj\Debug\QD.Found.dll
+D:\02_Fx\QD\QD.Found\obj\Debug\QD.Found.pdb
+E:\Innovation\QD\QD.Found\bin\Debug\QD.Found.dll
+E:\Innovation\QD\QD.Found\bin\Debug\QD.Found.pdb
+E:\Innovation\QD\QD.Found\obj\Debug\ResolveAssemblyReference.cache
+E:\Innovation\QD\QD.Found\obj\Debug\QD.Found.dll
+E:\Innovation\QD\QD.Found\obj\Debug\QD.Found.pdb
+D:\Innovation\QD\QD.Found\bin\Debug\QD.Found.dll
+D:\Innovation\QD\QD.Found\bin\Debug\QD.Found.pdb
+D:\Innovation\QD\QD.Found\obj\Debug\QD.Found.dll
+D:\Innovation\QD\QD.Found\obj\Debug\QD.Found.pdb

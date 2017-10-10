@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QD.ORM.Common.Constant" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAgCAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Common\Constant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Common.TipConst" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQBAgAAAIpAAAgAAAAAEIGAAAAQAAAAAAAAgIQAQwAw=</HashCode>
+      <FileName>Common\TipConst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Context.ISession&lt;T&gt;" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAABAAAAAAAACIEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ISession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Context.SessionFactory" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\SessionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.AccessDBManager" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\AccessDBManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QD.ORM.Engine.DataBaseManager" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIQQgBAKCAAwBIBAgEEFACAYDBAACBQEEJgBAAIAA=</HashCode>
+      <FileName>Engine\DataBaseManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QD.ORM.Engine.DB2DBManager" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\DB2DBManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.DBManagerAdapter" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WEQAQAgBAAACA0ECIAgUEhAADAAAIQCCQAAAgBJQIgA=</HashCode>
+      <FileName>Engine\DBManagerAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.DBManagerFactory" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAEAAAAJAAAAIAAAAAAAAIAAAA=</HashCode>
+      <FileName>Engine\DBManagerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.MySQLDBManager" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\MySQLDBManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.OracleDBManager" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\OracleDBManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QD.ORM.Engine.SQLServerDBManager" Collapsed="true">
+    <Position X="9.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Engine\SQLServerDBManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.Core.BaseORMEngine" Collapsed="true">
+    <Position X="3.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAQAAAAAAgAAAAAAAAAAACA=</HashCode>
+      <FileName>Engine\Core\BaseORMEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.Core.MappingEngine&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Core\MappingEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.Core.ORMUtil" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAgAAAAAAAABAAAAAIAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Engine\Core\ORMUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.Core.QDConvert" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Core\QDConvert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.SQL.DeleteBuilder" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAEAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\SQL\DeleteBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.SQL.InsertBuilder" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAYAAAAAAEAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\SQL\InsertBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.SQL.SelectBuilder" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAEAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\SQL\SelectBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.SQL.SQLBuilder" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\SQL\SQLBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.SQL.SQLFactory" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\SQL\SQLFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Engine.SQL.UpdateBuilder" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAYAAAAAAEAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\SQL\UpdateBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.MappingAttribute.Col.ColumnAttribute" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MappingAttribute\Col\ColumnAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.MappingAttribute.Col.PKAttribute" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MappingAttribute\Col\PKAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.MappingAttribute.Col.TransparentAttribute" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MappingAttribute\Col\TransparentAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.MappingAttribute.Relation.ManyToManyAttribute" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQgBAAAAAAAAAQAAAAAEAAAAAAAA=</HashCode>
+      <FileName>MappingAttribute\Relation\ManyToManyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.MappingAttribute.Relation.ManyToOneAttribute" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MappingAttribute\Relation\ManyToOneAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.MappingAttribute.Relation.OneToManyAttribute" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAQAAAAAIAAAAAAAA=</HashCode>
+      <FileName>MappingAttribute\Relation\OneToManyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.MappingAttribute.Relation.OneToOneAttribute" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MappingAttribute\Relation\OneToOneAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.MappingAttribute.Table.TableAttribute" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAQQAAAAA=</HashCode>
+      <FileName>MappingAttribute\Table\TableAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Model.DBConfig" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAQAAAAAAAAAAAAACAAAAAAAADAA=</HashCode>
+      <FileName>Model\DBConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Model.DescriptionObj" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DescriptionObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.OQL.SQLGeneratorFactory" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OQL\SQLGeneratorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.ORMException" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ORMException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QD.ORM.Pool.ConnectionPool" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIAAADAAAAAkAACEABIABABAIAAAAgAAIFIAAAE=</HashCode>
+      <FileName>Pool\ConnectionPool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="QD.ORM.Pool.PoolConnection" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAEAAAAAAAAAAAAAIAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Pool\PoolConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="QD.ORM.Driver.IDriver" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Driver\IDriver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QD.ORM.OQL.ISQLGenerator" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAA=</HashCode>
+      <FileName>OQL\ISQLGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QD.ORM.Pool.IConnectionPool" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Pool\IConnectionPool.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="QD.ORM.Engine.CmdType" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Engine\DBManagerAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="QD.ORM.Engine.SQL.SQLBuilderType" Collapsed="true">
+    <Position X="19.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Engine\SQL\SQLFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="QD.ORM.Model.DBType" Collapsed="true">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAAACABA=</HashCode>
+      <FileName>Model\DBType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="QD.ORM.Model.PKGenerateStrategy" Collapsed="true">
+    <Position X="17.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAYAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Model\PKGenerateStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="QD.ORM.ErrorType" Collapsed="true">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBA=</HashCode>
+      <FileName>ORMException.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

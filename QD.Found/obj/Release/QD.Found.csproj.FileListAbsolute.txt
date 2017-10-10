@@ -1,0 +1,16 @@
+D:\02_Fx\QD\QD.Found\bin\Release\QD.Found.dll
+D:\02_Fx\QD\QD.Found\bin\Release\QD.Found.pdb
+D:\02_Fx\QD\QD.Found\obj\Release\ResolveAssemblyReference.cache
+D:\02_Fx\QD\QD.Found\obj\Release\QD.Found.dll
+D:\02_Fx\QD\QD.Found\obj\Release\QD.Found.pdb
+D:\02_Fx\QDFramework\QD.Found.dll
+D:\02_Fx\QDFramework\QD.Found.pdb
+E:\Innovation\QDFramework\QD.Found.dll
+E:\Innovation\QDFramework\QD.Found.pdb
+E:\Innovation\QD\QD.Found\obj\Release\ResolveAssemblyReference.cache
+E:\Innovation\QD\QD.Found\obj\Release\QD.Found.dll
+E:\Innovation\QD\QD.Found\obj\Release\QD.Found.pdb
+D:\Innovation\QDFramework\QD.Found.dll
+D:\Innovation\QDFramework\QD.Found.pdb
+D:\Innovation\QD\QD.Found\obj\Release\QD.Found.dll
+D:\Innovation\QD\QD.Found\obj\Release\QD.Found.pdb

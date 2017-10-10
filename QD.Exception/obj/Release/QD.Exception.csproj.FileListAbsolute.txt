@@ -1,0 +1,16 @@
+D:\02_Fx\QD\QD.Exception\bin\Release\QD.Exception.dll
+D:\02_Fx\QD\QD.Exception\bin\Release\QD.Exception.pdb
+D:\02_Fx\QD\QD.Exception\obj\Release\ResolveAssemblyReference.cache
+D:\02_Fx\QD\QD.Exception\obj\Release\QD.Exception.dll
+D:\02_Fx\QD\QD.Exception\obj\Release\QD.Exception.pdb
+D:\02_Fx\QDFramework\QD.Exception.dll
+D:\02_Fx\QDFramework\QD.Exception.pdb
+E:\Innovation\QDFramework\QD.Exception.dll
+E:\Innovation\QDFramework\QD.Exception.pdb
+E:\Innovation\QD\QD.Exception\obj\Release\ResolveAssemblyReference.cache
+E:\Innovation\QD\QD.Exception\obj\Release\QD.Exception.dll
+E:\Innovation\QD\QD.Exception\obj\Release\QD.Exception.pdb
+D:\Innovation\QDFramework\QD.Exception.dll
+D:\Innovation\QDFramework\QD.Exception.pdb
+D:\Innovation\QD\QD.Exception\obj\Release\QD.Exception.dll
+D:\Innovation\QD\QD.Exception\obj\Release\QD.Exception.pdb

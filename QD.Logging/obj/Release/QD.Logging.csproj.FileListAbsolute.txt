@@ -1,0 +1,16 @@
+D:\02_Fx\QD\QD.Logging\bin\Release\QD.Logging.dll
+D:\02_Fx\QD\QD.Logging\bin\Release\QD.Logging.pdb
+D:\02_Fx\QD\QD.Logging\obj\Release\ResolveAssemblyReference.cache
+D:\02_Fx\QD\QD.Logging\obj\Release\QD.Logging.dll
+D:\02_Fx\QD\QD.Logging\obj\Release\QD.Logging.pdb
+D:\02_Fx\QDFramework\QD.Logging.dll
+D:\02_Fx\QDFramework\QD.Logging.pdb
+E:\Innovation\QDFramework\QD.Logging.dll
+E:\Innovation\QDFramework\QD.Logging.pdb
+E:\Innovation\QD\QD.Logging\obj\Release\ResolveAssemblyReference.cache
+E:\Innovation\QD\QD.Logging\obj\Release\QD.Logging.dll
+E:\Innovation\QD\QD.Logging\obj\Release\QD.Logging.pdb
+D:\Innovation\QDFramework\QD.Logging.dll
+D:\Innovation\QDFramework\QD.Logging.pdb
+D:\Innovation\QD\QD.Logging\obj\Release\QD.Logging.dll
+D:\Innovation\QD\QD.Logging\obj\Release\QD.Logging.pdb

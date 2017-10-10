@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6723396C-38B4-4D25-A45E-9CF0791197D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QD.ORM</RootNamespace>
+    <AssemblyName>QD.ORM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\QDFramework\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Constant.cs" />
+    <Compile Include="Common\TipConst.cs" />
+    <Compile Include="Context\ISession.cs" />
+    <Compile Include="Context\SessionFactory.cs" />
+    <Compile Include="Driver\IDriver.cs" />
+    <Compile Include="Engine\AccessDBManager.cs" />
+    <Compile Include="Engine\Core\BaseORMEngine.cs" />
+    <Compile Include="Engine\Core\MappingEngine.cs" />
+    <Compile Include="Engine\Core\QDConvert.cs" />
+    <Compile Include="Engine\Core\ORMUtil.cs" />
+    <Compile Include="Engine\DB2DBManager.cs" />
+    <Compile Include="Engine\DBManagerFactory.cs" />
+    <Compile Include="Engine\DataBaseManager.cs" />
+    <Compile Include="Engine\DBManagerAdapter.cs" />
+    <Compile Include="Engine\MySQLDBManager.cs" />
+    <Compile Include="Engine\OracleDBManager.cs" />
+    <Compile Include="Engine\SQLServerDBManager.cs" />
+    <Compile Include="Engine\SQL\DeleteBuilder.cs" />
+    <Compile Include="Engine\SQL\InsertBuilder.cs" />
+    <Compile Include="Engine\SQL\SelectBuilder.cs" />
+    <Compile Include="Engine\SQL\SQLBuilder.cs" />
+    <Compile Include="Engine\SQL\SQLFactory.cs" />
+    <Compile Include="Engine\SQL\UpdateBuilder.cs" />
+    <Compile Include="MappingAttribute\Col\ColumnAttribute.cs" />
+    <Compile Include="MappingAttribute\Col\PKAttribute.cs" />
+    <Compile Include="MappingAttribute\Col\TransparentAttribute.cs" />
+    <Compile Include="MappingAttribute\Relation\ManyToManyAttribute.cs" />
+    <Compile Include="MappingAttribute\Relation\ManyToOneAttribute.cs" />
+    <Compile Include="MappingAttribute\Relation\OneToManyAttribute.cs" />
+    <Compile Include="MappingAttribute\Relation\OneToOneAttribute.cs" />
+    <Compile Include="MappingAttribute\Table\TableAttribute.cs" />
+    <Compile Include="Model\DBConfig.cs" />
+    <Compile Include="Model\DBType.cs" />
+    <Compile Include="Model\DescriptionObj.cs" />
+    <Compile Include="Model\PKGenerateStrategy.cs" />
+    <Compile Include="OQL\ISQLGenerator.cs" />
+    <Compile Include="OQL\SQLGeneratorFactory.cs" />
+    <Compile Include="Pool\ConnectionPool.cs" />
+    <Compile Include="Pool\IConnectionPool.cs" />
+    <Compile Include="Pool\PoolConnection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ORMException.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Transaction\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QD.Cache\QD.Cache.csproj">
+      <Project>{A514155B-311E-416B-8BCB-BA2F4693DD6D}</Project>
+      <Name>QD.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QD.Found\QD.Found.csproj">
+      <Project>{3B3C9986-48C3-4A1F-8204-13C4184B4478}</Project>
+      <Name>QD.Found</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
